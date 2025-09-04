@@ -4,6 +4,8 @@ const PORT = 3001;
 
 app.get("/", (req, res) => {
   res.send("📦 Response from Server 1");
+  console.log('test');
+  
 });
 
 app.listen(PORT, () => {
